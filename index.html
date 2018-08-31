@@ -42,6 +42,18 @@
     </style>
   </head>
   <body>
+
+    <!-- Video Background Starts -->
+    <video id="video_background" muted loop autoplay>
+      <source src="/vid/promo.mp4" type="video/mp4">
+      <source src="Add File" type="video/ogg">
+      <source src="Add File" type="video/webm">
+  Your browser does not support the video tag.
+  </video>
+    <!-- Video Background Ends -->
+
+
+
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
@@ -119,9 +131,9 @@
 
       <div class="android-content mdl-layout__content">
         <a name="top"></a>
-        <div class="android-be-together-section mdl-typography--text-center">
-          <div class="logo-font android-slogan">be together. not the same.</div>
-          <div class="logo-font android-sub-slogan">welcome to android... be yourself. do your thing. see what's going on.</div>
+        <div class="mdl-typography--text-center android-be-together-section">
+          <div class="logo-font android-slogan">Turbary Woods</div>
+          <div class="logo-font android-sub-slogan">A unique collection of over 90 birds of prey including eagles, hawks, falcons, owls and more unusual species.</div>
           <div class="logo-font android-create-character">
             <a href=""><img src="images/andy.png"> create your android character</a>
           </div>
@@ -132,7 +144,7 @@
             </button>
           </a>
         </div>
-        <div class="android-screen-section mdl-typography--text-center">
+        <div class="android-screen-section mdl-typography--text-center mybg">
           <a name="screens"></a>
           <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
           <div class="android-screens">
@@ -185,7 +197,7 @@
             </div>
           </div>
         </div>
-        <div class="android-customized-section">
+        <div class="android-customized-section mybg">
           <div class="android-customized-section-text">
             <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
             <p class="mdl-typography--font-light">
@@ -194,9 +206,9 @@
               <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
             </p>
           </div>
-          <div class="android-customized-section-image"></div>
+          <div class="android-customized-section-image mybg"></div>
         </div>
-        <div class="android-more-section">
+        <div class="android-more-section mybg">
           <div class="android-section-title mdl-typography--display-1-color-contrast">More from Android</div>
           <div class="android-card-container mdl-grid">
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
@@ -323,7 +335,7 @@
         </footer>
       </div>
     </div>
-    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/android-dot-com/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+    
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </body>
 </html>

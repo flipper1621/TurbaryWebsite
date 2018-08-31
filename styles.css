@@ -174,15 +174,17 @@ a img{
   position: relative;
   height: 800px;
   width: auto;
-  background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+  background-color: black;
+  opacity: .8;
+  /*background: url('images/slide01.jpg') center 30% no-repeat;*/
   background-size: cover;
 }
 
 .logo-font {
+  z-index: 900;
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #767777;
+  color: white;
   font-weight: 500;
 }
 
@@ -539,4 +541,19 @@ a img{
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
+}
+#video_background {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+.mybg {
+  background-color: #fafafa;
+  z-index: -1;
 }
