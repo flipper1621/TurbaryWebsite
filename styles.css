@@ -555,15 +555,19 @@ a img{
   z-index: -1;
 }
 #primarybtn {
-  background-color: red;
+  background-color: #8bc34a; 
+  color: black;
   min-width: 150px;
   margin: 50px 15px 0px 0px;
-  opacity: 1;
+
 }
 #donatebtn {
   background-color: white;
   color: black;
   min-width: 150px;
   margin: 50px 15px 0px 0px;
-  opacity: 1;
+}
+
+#morebtn {
+  background-color: #8bc34a !important;
 }

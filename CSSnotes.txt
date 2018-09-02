@@ -1,0 +1,23 @@
+CSS
+    Selector {
+        attbuite: value;
+    }
+
+types of selector:
+
+#id
+.class
+body
+*
+p 
+
+(Sudo)
+p:hover {
+    attrubite:value;
+}
+
+Z-index defines stack order for example:
+
+-100 would be at back
+22 would be in middle
+23 would be in front
