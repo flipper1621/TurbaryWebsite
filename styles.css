@@ -62,8 +62,7 @@ a img{
 
 
 .android-logo-image {
-  height: 28px;
-  width: 140px;
+  height: 40px;
 }
 
 
@@ -172,11 +171,9 @@ a img{
 
 .android-be-together-section {
   position: relative;
-  height: 800px;
+  height: 600px;
   width: auto;
-  background-color: black;
-  opacity: .8;
-  /*background: url('images/slide01.jpg') center 30% no-repeat;*/
+  background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
 }
 
@@ -559,12 +556,14 @@ a img{
 }
 #primarybtn {
   background-color: red;
+  min-width: 150px;
   margin: 50px 15px 0px 0px;
   opacity: 1;
 }
 #donatebtn {
   background-color: white;
   color: black;
+  min-width: 150px;
   margin: 50px 15px 0px 0px;
   opacity: 1;
 }
