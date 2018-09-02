@@ -557,3 +557,14 @@ a img{
   background-color: #fafafa;
   z-index: -1;
 }
+#primarybtn {
+  background-color: red;
+  margin: 50px 15px 0px 0px;
+  opacity: 1;
+}
+#donatebtn {
+  background-color: white;
+  color: black;
+  margin: 50px 15px 0px 0px;
+  opacity: 1;
+}
