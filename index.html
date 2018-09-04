@@ -148,39 +148,75 @@
         </div>
         <div class="android-screen-section mdl-typography--text-center mybg">
           <a name="screens"></a>
-          <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
+          <div class="mdl-typography--display-1-color-contrast">Visitor Information</div>
           <div class="android-screens">
-            <div class="android-wear android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/wear-silver-on.png">
-                <img class="android-screen-image" src="images/wear-black-on.png">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android Wear</a>
+              
+            <div class="wrapper">
+              <div class="box a">
+                  <div id="googleMap" style="width:100%;height:400px;"></div>
+
+                  <script>
+                  function myMap() {
+                  var mapProp= {
+                      center:new google.maps.LatLng(53.722970,-2.722700),
+                      zoom:16,
+                  };
+                  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                  }
+                  </script>
+                  <!--API key is AIzaSyDWoT6pYuO_t-71j9OqHcDuWhsrtN2zo9I-->
+                  <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
+                              
+              </div>
+              <div class="box addressimg"></div>
+              <div class="box b">Find Us<br>
+                <div id="findusbox" class="flex-container">
+                  <div id="addressbox" class="flex-container">
+                    <div>
+                      <i style="padding-right: 15px;" class="material-icons">
+                        location_on
+                      </i>
+                    </div>
+                    <div class="address">
+                      <p>Turbary Woods Owl and Bird of Prey Sanctuary<br>
+                      Access Through Garden Centre<br>
+                      92 Chain House Lane<br>
+                      Whitestake<br>
+                      Preston<br>
+                      PR4 4LB</p>
+                    </div>
+
+                  </div>
+                  <div id="addressbox" class="flex-container">
+                    <div>
+                      <i style="padding-right: 15px;" class="material-icons">
+                        phone
+                      </i>
+                    </div>
+                    <div class="address">
+                      <p>+44 1772 323323</p>
+                    </div>
+
+                  </div>
+                  <div id="addressbox" class="flex-container">
+                    <div>
+                      <i style="padding-right: 15px;" class="material-icons">
+                        email
+                      </i>
+                    </div>
+                    <div class="address">
+                      <p>info@turbarywoods.co.uk</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="box c">Getting Here</div>
+              <div class="box d">Opening Times</div>
             </div>
-            <div class="android-phone android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/nexus6-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Phones</a>
-            </div>
-            <div class="android-tablet android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/nexus9-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Tablets</a>
-            </div>
-            <div class="android-tv android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/tv-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android TV</a>
-            </div>
-            <div class="android-auto android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/auto-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="">Coming Soon: Android Auto</a>
-            </div>
+            
+            
+            
           </div>
         </div>
         <div class="android-wear-section">
@@ -286,6 +322,87 @@
             </div>
           </div>
         </div>
+
+        <!-- Try this out-->
+        <div class="android-more-section mybg">
+          <div class="android-section-title mdl-typography--display-1-color-contrast">Sponsor a bird</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--stretch mdl-cell--12-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp eventcard">
+              <div class="mdl-card__media">
+                <img style="width: 150px; height: 150px;" src="images/more-from-1.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Get going on Android</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   Make the switch
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-4.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   androidify.com
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-2.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   Download now
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/more-from-3.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">Millions to choose from</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   Find apps
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- End try out-->
 
         <footer class="android-footer mdl-mega-footer">
           <div class="mdl-mega-footer--top-section">
