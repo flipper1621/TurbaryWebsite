@@ -648,7 +648,14 @@ grid-gap: 10px;
   }
 
   #findusbox {
-    padding-top: 15px;
-    align-self: flex-start;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
+  }
+  #master {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
