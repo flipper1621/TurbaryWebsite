@@ -629,6 +629,8 @@ grid-gap: 10px;
   grid-row: 3 ;
   color: rgba(0,0,0,.6);
   text-align: center;
+  display: flex;
+  flex-direction: row;
 
 }
   #map {
@@ -648,7 +650,7 @@ grid-gap: 10px;
   }
 
   #findusbox {
-    padding-top: 35px;
+      
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -658,4 +660,22 @@ grid-gap: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #openingbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+  }
+  #opening {
+    text-align: left;
+    
+
+  }
+
+
+  #clock {
+    font-size: 70px;
+
   }
